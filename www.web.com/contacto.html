@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/logoFI.ico">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@sitio">
+    <meta name="twitter:title" content="Título página">
+    <meta name="twitter:description" content="Descripción de la página">
+    <meta name="twitter:creator" content="@autor">
+    <meta name="twitter:image" content="http://www.ejemplo.com/image.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Título de la página" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.ejemplo.com/" />
+    <meta property="og:image" content="http://ejemplo.com/imagen.jpg" />
+    <meta property="og:description" content="Descripción de la página" />
+    <meta property="og:site_name" content="Nombre página web" />
+    <meta property="fb:admins" content="ID de Facebook" />
+
+    <title>Contacto - Nombre Empresa</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./assets/images/logoM.png" alt="logo"></a>
+        <h1>Nombre Empresa</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label>Nombre:</label>
+                <input name="nombre" type="text" placeholder="Nombre" required=”true” pattern="[A-Za-z0-9]{1,30}" title="30 caracteres como máximo, sólo letras y números"/><br>
+                <label>Email: </label>
+                <input name="email" type="email" placeholder="Email" required=”true”/><br>
+                <label>Edad:</label>
+                <input name="edad" type="text" placeholder="Edad" required pattern="[18-99]{2}" title="Entre 18 y 99 años"/><br>
+                <label>Teléfono:</label>
+                <input name="telefono" type="text" placeholder="Teléfono" required=”true” /><br>
+                <textarea name="textarea" rows="10" cols="50">Escribe aquí tu mensaje</textarea><br>
+                <input type="checkbox" name= "aceptacion" value="" />
+                <label>Aceptación de política de privacidad y cookies.</label><br>
+                <input type="submit" value="Enviar" />
+            </form><br>
+        </article>
+        <article>
+            <h2>Contacto Empresa</h2>
+            <p><img src="./assets/images/Localizacion.png">C/ Nombre Calle 00, Ciudad. Provincia</p>
+            <p><img src="./assets/images/Telefono.png"><a href="tel:+34645944702">645 944 702</a></p>
+            <p><img src="./assets/images/email.png"><a href="mailto:balbas18537@iesmarenostrum.com">balbas18537@iesmarenostrum.com</a></p>
+
+        </article>
+    
+    </section>
+   
+    <footer>
+        <small>© Nombre Empresa 2019</small>
+        <div><a href="">Política de privacidad y cookies</a></div>
+        <a target="_blank" href="https://twitter.com/"><img src="./assets/images/twitterR.png" alt="Twitter"></a>
+        <a target="_blank" href="https://www.facebook.com"><img src="./assets/images/facebookR.png" alt="Facebook"></a>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=34645944702&text=¡Hola!"><img src="./assets/images/whatsappR.png" alt="Whatsapp"></a>
+    </footer>
+</body>
+</html>
